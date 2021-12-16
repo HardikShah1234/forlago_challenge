@@ -1,0 +1,12 @@
+query LaunchList {
+    launchConnection: launches {
+        launches {
+            id
+            site
+            mission {
+                name
+                missionPatch(size: SMALL)
+            }
+        }
+    }
+}

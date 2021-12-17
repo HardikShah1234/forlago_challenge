@@ -132,13 +132,6 @@ License for the specific language governing permissions and limitations under
 the License.
 ```
 
-# WIP
-
-```
-adb shell am start -d "forlago://bar/FooText" -a android.intent.action.VIEW
-adb shell am start -d "forlago://debug" -a android.intent.action.VIEW
-```
-
 Inspired by the following open source projects:
 
 - https://github.com/FunkyMuse/Aurora

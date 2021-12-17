@@ -1,23 +1,28 @@
-# Forlago 🍷 (work-in-progress 👷🔧️👷‍♀️⛏)
+# Rocket Details App
 
 <img src="/art/play_store_feature_graphic.png" width="300" align="right" hspace="0" />
 
 ![CI](https://github.com/leinardi/Forlago/workflows/CI/badge.svg)  ![License](https://img.shields.io/github/license/leinardi/Forlago.svg) ![Language](https://img.shields.io/github/languages/top/leinardi/Forlago?color=blue&logo=kotlin)
 
-A Github template that lets you create an enterprise grade **Android / Compose Only / Single Activity / Multi Module** application project.
+A Github template (Forlago) that lets you create an enterprise grade **Android / Compose Only / Single Activity / Multi Module** application project.
 
-## How to use 👣
+## How App Look like 👣
 
-Just click on [![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/leinardi/Forlago/generate)
-button to create a new repo starting from this template.
+First Screen               |  Screen with Dialog
+:-------------------------:|:-------------------------:
+<img width="367" alt="Screenshot 2021-12-17 at 13 14 19" src="https://user-images.githubusercontent.com/47896958/146544895-ee8235a4-6bde-4e12-ab0f-ccb1df8b4ca1.png">         |  <img width="366" alt="Screenshot 2021-12-17 at 13 14 40" src="https://user-images.githubusercontent.com/47896958/146545015-819b3f8c-5703-4c91-b7ac-93c46e609143.png">
 
-After successfully forking the template you have to:
 
-- Replace all the occurrences of `com.leinardi.forlago` with the Application ID of your new project
-- Replace all the occurrences of `forlago`/`Forlago`/`FORLAGO` with the name of your new project (remember to preserve the case!)
-- Rename all the files containing `forlago`/`Forlago`/`FORLAGO` (e.g `ForlagoNavigator.kt` -> `YourProjectNameNavigator.kt`)
-- Generate a new debug and release keystores `release/app-debug.jks` (see Release section below)
-- Replace the App icons (you can generate new icons using [icon.kitchen](https://icon.kitchen/) by @romannurik)
+
+
+Detail Screen               |  Debug Screen
+:-------------------------:|:-------------------------:
+<img width="368" alt="Screenshot 2021-12-17 at 13 15 03" src="https://user-images.githubusercontent.com/47896958/146545346-f611a6f4-5ead-4b69-8895-5e651a72780b.png">         |  <img width="367" alt="Screenshot 2021-12-17 at 13 15 41" src="https://user-images.githubusercontent.com/47896958/146546403-87887912-11cf-4324-9746-1fcebe0885f1.png">
+
+
+#### Debug Screen with url
+
+<img width="367" alt="Screenshot 2021-12-17 at 13 15 54" src="https://user-images.githubusercontent.com/47896958/146546634-36a63b28-19ad-4cb6-a916-7b294c169d9b.png">
 
 ## Features 🎨
 
@@ -26,6 +31,7 @@ After successfully forking the template you have to:
 - Multi Module project structure
 - CI Setup with GitHub Actions
 - Dependency versions managed via `libs.versions.toml`
+- Currently working **Rocket Launch Module with Graphql query**
 
 ## Gradle Setup 🐘
 
